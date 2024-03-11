@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="demo workspace">b2520decebb406105387f734bad0cde0</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>list</name>
+        <optional_parameters>listId,configId</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>list</route_type>
+        <screen_type display_value="list">79234d60ebf406105387f734bad0cd4e</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 05:25:08</sys_created_on>
+        <sys_id>7d234d60ebf406105387f734bad0cd50</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>list</sys_name>
+        <sys_package display_value="Application Management System" source="x_snc_app_inv">e6c5a74deb94c6105387f734bad0cd21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</sys_scope>
+        <sys_update_name>sys_ux_app_route_7d234d60ebf406105387f734bad0cd50</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 05:26:10</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=7d234d60ebf406105387f734bad0cd50"/>
+</record_update>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fea6a38deb94c6105387f734bad0cd2a" label="App details" max_length="40" name="x_snc_app_inv_app_details" type="collection">
+        <element choice="1" label="Application Type" max_length="40" name="application_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Android" sequence="0" value="Android"/>
+                <element inactive_on_update="false" label="Calendar Service" sequence="0" value="Calendar Service"/>
+                <element inactive_on_update="false" label="Cloud Storage" sequence="0" value="Cloud Storage"/>
+                <element inactive_on_update="false" label="Cloud-based Software" sequence="0" value="Cloud-based Software"/>
+                <element inactive_on_update="false" label="Customer Relationship Management (CRM)" sequence="0" value="Customer Relationship Management (CRM)"/>
+                <element inactive_on_update="false" label="Desktop Application" sequence="0" value="Desktop Application"/>
+                <element inactive_on_update="false" label="Document Editor" sequence="0" value="Document Editor"/>
+                <element inactive_on_update="false" label="Email Service" sequence="0" value="Email Service"/>
+                <element inactive_on_update="false" label="Enterprise Resource Planning (ERP)" sequence="0" value="Enterprise Resource Planning (ERP)"/>
+                <element inactive_on_update="false" label="Issue Tracking" sequence="0" value="Issue Tracking"/>
+                <element inactive_on_update="false" label="Spreadsheet Editor" sequence="0" value="Spreadsheet Editor"/>
+                <element inactive_on_update="false" label="Team Collaboration" sequence="0" value="Team Collaboration"/>
+                <element inactive_on_update="false" label="Video Conferencing" sequence="0" value="Video Conferencing"/>
+                <element inactive_on_update="false" label="iOS" sequence="1" value="iOS"/>
+                <element inactive_on_update="false" label="Android &amp; iOS" sequence="2" value="Android &amp; iOS"/>
+                <element inactive_on_update="false" label="Web based" sequence="3" value="Web based"/>
+            </choice>
+        </element>
+        <element label="Assignment group" mandatory="true" max_length="32" name="assignment_group" reference="sys_user_grmember" type="reference"/>
+        <element label="isExpired" max_length="40" name="expired" type="boolean"/>
+        <element label="Expires on" mandatory="true" max_length="50" name="expires_on" type="glide_date"/>
+        <element label="Hosting vendor" max_length="40" name="hosting_vendor" type="string"/>
+        <element label="L1 User" mandatory="true" max_length="32" name="l1_user" reference="sys_user" reference_qual="roles=x_snc_app_inv.L1 User role^EQ" reference_qual_condition="roles=x_snc_app_inv.L1 User role^EQ" type="reference"/>
+        <element label="L2 User" mandatory="true" max_length="32" name="l2_user" reference="sys_user" reference_qual="roles=x_snc_app_inv.L2 User role^EQ" reference_qual_condition="roles=x_snc_app_inv.L2 User role^EQ" type="reference"/>
+        <element label="Licensable" max_length="40" name="licensable" type="boolean"/>
+        <element choice="1" label="License Model" mandatory="true" max_length="40" name="license_model" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Perpetual" sequence="0" value="Perpetual"/>
+                <element inactive_on_update="false" label="Subscription" sequence="0" value="Subscription"/>
+            </choice>
+        </element>
+        <element label="Assigned to" mandatory="true" max_length="32" name="managed_by" reference="sys_user" reference_qual="roles=x_snc_app_inv.Manager^EQ" reference_qual_condition="roles=x_snc_app_inv.Manager^EQ" type="reference"/>
+        <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element choice="1" label="Category" max_length="40" name="type_of_application" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Business" sequence="0" value="Business"/>
+                <element inactive_on_update="false" label="Communication" sequence="0" value="Communication"/>
+                <element inactive_on_update="false" label="Design" sequence="0" value="Design"/>
+                <element inactive_on_update="false" label="Education" sequence="1" value="Education"/>
+                <element inactive_on_update="false" label="Finance" sequence="2" value="Finance"/>
+                <element inactive_on_update="false" label="Productivity" sequence="3" value="Productivity"/>
+            </choice>
+        </element>
+        <element label="Version" mandatory="true" max_length="40" name="version" type="string"/>
+        <index name="index">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index2">
+            <element name="l1_user"/>
+        </index>
+        <index name="index3">
+            <element name="l2_user"/>
+        </index>
+        <index name="index4">
+            <element name="managed_by"/>
+        </index>
+    </element>
+</database>

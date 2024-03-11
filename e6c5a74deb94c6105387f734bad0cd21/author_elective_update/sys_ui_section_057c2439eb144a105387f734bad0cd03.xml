@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="057c2439eb144a105387f734bad0cd03" sys_domain="global" table="x_snc_app_inv_app_user_mapping" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>app_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-13 02:13:27</sys_created_on>
+            <sys_id>43771d4eebd08a105387f734bad0cda9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_app_inv_app_user_mapping" sys_domain="global" view="Default view">057c2439eb144a105387f734bad0cd03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-13 02:13:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>l1_username</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-13 02:13:27</sys_created_on>
+            <sys_id>c3771d4eebd08a105387f734bad0cda9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_app_inv_app_user_mapping" sys_domain="global" view="Default view">057c2439eb144a105387f734bad0cd03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-13 02:13:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-13 02:13:27</sys_created_on>
+            <sys_id>47771d4eebd08a105387f734bad0cda9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_app_inv_app_user_mapping" sys_domain="global" view="Default view">057c2439eb144a105387f734bad0cd03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-13 02:13:27</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>l2_username</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-13 02:13:27</sys_created_on>
+            <sys_id>c7771d4eebd08a105387f734bad0cda9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_app_inv_app_user_mapping" sys_domain="global" view="Default view">057c2439eb144a105387f734bad0cd03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-13 02:13:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-13 02:13:27</sys_created_on>
+            <sys_id>4b771d4eebd08a105387f734bad0cda9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_app_inv_app_user_mapping" sys_domain="global" view="Default view">057c2439eb144a105387f734bad0cd03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-13 02:13:27</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notes</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-13 02:13:27</sys_created_on>
+            <sys_id>cb771d4eebd08a105387f734bad0cda9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_app_inv_app_user_mapping" sys_domain="global" view="Default view">057c2439eb144a105387f734bad0cd03</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-13 02:13:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_app_inv_app_user_mapping</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 04:26:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>057c2439eb144a105387f734bad0cd03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_app_inv_app_user_mapping</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Application Management System" source="x_snc_app_inv">e6c5a74deb94c6105387f734bad0cd21</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</sys_scope>
+            <sys_update_name>sys_ui_section_057c2439eb144a105387f734bad0cd03</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 04:26:57</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</application>
+        <file_path/>
+        <instance_id>f5a501791b7b39d87d9d2f8dee4bcb3c</instance_id>
+        <instance_name>pranay</instance_name>
+        <name>sys_ui_section_057c2439eb144a105387f734bad0cd03</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="057c2439eb144a105387f734bad0cd03" sys_domain="global" table="x_snc_app_inv_app_user_mapping" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>app_name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-13 02:13:27</sys_created_on><sys_id>43771d4eebd08a105387f734bad0cda9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_app_inv_app_user_mapping" sys_domain="global" view="Default view">057c2439eb144a105387f734bad0cd03</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-13 02:13:27</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>l1_username</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-13 02:13:27</sys_created_on><sys_id>c3771d4eebd08a105387f734bad0cda9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_app_inv_app_user_mapping" sys_domain="global" view="Default view">057c2439eb144a105387f734bad0cd03</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-13 02:13:27</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-13 02:13:27</sys_created_on><sys_id>47771d4eebd08a105387f734bad0cda9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_app_inv_app_user_mapping" sys_domain="global" view="Default view">057c2439eb144a105387f734bad0cd03</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-13 02:13:27</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>l2_username</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-13 02:13:27</sys_created_on><sys_id>c7771d4eebd08a105387f734bad0cda9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_app_inv_app_user_mapping" sys_domain="global" view="Default view">057c2439eb144a105387f734bad0cd03</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-13 02:13:27</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-13 02:13:27</sys_created_on><sys_id>4b771d4eebd08a105387f734bad0cda9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_app_inv_app_user_mapping" sys_domain="global" view="Default view">057c2439eb144a105387f734bad0cd03</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-13 02:13:27</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>notes</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-13 02:13:27</sys_created_on><sys_id>cb771d4eebd08a105387f734bad0cda9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_snc_app_inv_app_user_mapping" sys_domain="global" view="Default view">057c2439eb144a105387f734bad0cd03</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-13 02:13:27</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_snc_app_inv_app_user_mapping</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-12 04:26:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>057c2439eb144a105387f734bad0cd03</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_app_inv_app_user_mapping</sys_name><sys_overrides/><sys_package display_value="Application Management System" source="x_snc_app_inv">e6c5a74deb94c6105387f734bad0cd21</sys_package><sys_policy/><sys_scope display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</sys_scope><sys_update_name>sys_ui_section_057c2439eb144a105387f734bad0cd03</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-12 04:26:57</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1951241153</payload_hash>
+        <record_name>App User Mapping</record_name>
+        <reverted_from/>
+        <source>76c5a74deb94c6105387f734bad0cd25</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 02:13:27</sys_created_on>
+        <sys_id>0f771d4eebd08a105387f734bad0cdab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18da03d98780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 02:13:27</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>47771d4ef7d08a1080177f9e024bc3ab</update_guid>
+        <update_guid_history>47771d4ef7d08a1080177f9e024bc3ab:1951241153,0e47194e49d08a10e6df2922218cc998:1386694187,38419df5d4944a10a3d786a52cf9fbb5:-1678782060,857ca439ea144a10de98fb62b7264f6d:-393417168,c97c2439dc144a107aa502ee378b9d05:1363110605</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-27 04:35:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>554637b2109840b9816357c5fa6d0d69</sys_id>
+        <sys_metadata>057c2439eb144a105387f734bad0cd03</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_app_inv_app_user_mapping</sys_name>
+        <sys_package display_value="Application Management System" source="x_snc_app_inv">e6c5a74deb94c6105387f734bad0cd21</sys_package>
+        <sys_parent display_value="">07292701ebd4c6105387f734bad0cd8d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</sys_scope>
+        <sys_scope_delete display_value="">168b7b51bb014e4085c0d28bce269000</sys_scope_delete>
+        <sys_update_name>sys_ui_section_057c2439eb144a105387f734bad0cd03</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_057c2439eb144a105387f734bad0cd03">0f771d4eebd08a105387f734bad0cdab</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-27 04:35:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

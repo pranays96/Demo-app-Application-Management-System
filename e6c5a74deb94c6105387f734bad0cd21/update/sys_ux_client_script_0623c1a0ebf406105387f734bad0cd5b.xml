@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">f1234d60ebf406105387f734bad0cd53</macroponent>
+        <name>ListMenu Toggle</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+    const listPreference = api.state.listMenuOpenPreference;
+    const open = event.payload.listMenuOpen;
+
+    api.setState('listMenuOpen', open);
+    api.setState('listDisplayPanes', open? 'both': 'right');
+ 
+    api.data.setListPreference.execute({
+        'name': listPreference,
+        'value': open
+    });    
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-04 05:25:09</sys_created_on>
+        <sys_id>0623c1a0ebf406105387f734bad0cd5b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ListMenu Toggle</sys_name>
+        <sys_package display_value="Application Management System" source="x_snc_app_inv">e6c5a74deb94c6105387f734bad0cd21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</sys_scope>
+        <sys_update_name>sys_ux_client_script_0623c1a0ebf406105387f734bad0cd5b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-04 05:25:09</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

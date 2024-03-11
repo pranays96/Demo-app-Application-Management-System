@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Additional info" section_id="df3aacb2eb580e105387f734bad0cd84" sys_domain="global" table="cmdb_ci_hardware" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>change_control</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-15 06:51:18</sys_created_on>
+            <sys_id>604aecb2eb580e105387f734bad0cd73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Additional info" display_value="Additional info" name="cmdb_ci_hardware" sys_domain="global" view="Default view">df3aacb2eb580e105387f734bad0cd84</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-15 06:51:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-15 06:51:18</sys_created_on>
+            <sys_id>e04aecb2eb580e105387f734bad0cd73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Additional info" display_value="Additional info" name="cmdb_ci_hardware" sys_domain="global" view="Default view">df3aacb2eb580e105387f734bad0cd84</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-15 06:51:18</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-15 06:51:18</sys_created_on>
+            <sys_id>644aecb2eb580e105387f734bad0cd73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Additional info" display_value="Additional info" name="cmdb_ci_hardware" sys_domain="global" view="Default view">df3aacb2eb580e105387f734bad0cd84</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-15 06:51:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Additional info</caption>
+            <header>false</header>
+            <name>cmdb_ci_hardware</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-15 06:51:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df3aacb2eb580e105387f734bad0cd84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_hardware</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Application Management System" source="x_snc_app_inv">e6c5a74deb94c6105387f734bad0cd21</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</sys_scope>
+            <sys_update_name>sys_ui_section_df3aacb2eb580e105387f734bad0cd84</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-15 06:51:12</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

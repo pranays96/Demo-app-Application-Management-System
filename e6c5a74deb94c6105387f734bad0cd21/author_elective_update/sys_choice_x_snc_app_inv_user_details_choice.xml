@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="choice" table="x_snc_app_inv_user_details" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>choice</element>
+            <name>x_snc_app_inv_user_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 04:07:50</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>choice</sys_name>
+            <sys_package display_value="Application Management System" source="x_snc_app_inv">e6c5a74deb94c6105387f734bad0cd21</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</sys_scope>
+            <sys_update_name>sys_choice_x_snc_app_inv_user_details_choice</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 04:07:50</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

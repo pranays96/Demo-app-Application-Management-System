@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ca7e72e4ebe842105387f734bad0cddd" extends="sys_import_set_row" label="Custom Table for XML upload" max_length="40" name="x_snc_app_inv_custom_table_for_xml_upload" type="collection">
+        <element label="applicationType" max_length="40" name="applicationtype" type="string"/>
+        <element label="category" max_length="40" name="category" type="string"/>
+        <element label="hostingVendor" max_length="40" name="hostingvendor" type="string"/>
+        <element label="isExpired" max_length="40" name="isexpired" type="string"/>
+        <element label="licensable" max_length="40" name="licensable" type="string"/>
+        <element label="licenseModel" max_length="40" name="licensemodel" type="string"/>
+        <element label="name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=applicationType" label="applicationType" max_length="40" name="u_applicationtype" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=category" label="category" max_length="40" name="u_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=hostingVendor" label="hostingVendor" max_length="40" name="u_hostingvendor" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=isExpired" label="isExpired" max_length="40" name="u_isexpired" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=licensable" label="licensable" max_length="40" name="u_licensable" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=licenseModel" label="licenseModel" max_length="40" name="u_licensemodel" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=version" label="version" max_length="40" name="u_version" type="string"/>
+        <element label="version" max_length="40" name="version" type="string"/>
+    </element>
+</database>

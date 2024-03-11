@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_app_inv.FetchDependencyAppVersion</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>FetchDependencyAppVersion</name>
+        <script><![CDATA[var FetchDependencyAppVersion = Class.create();
+FetchDependencyAppVersion.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getAppVersion: function() {
+		
+
+        var dependencyAppName = this.getParameter('dependency_app');
+			
+        var appDetailsGr = new GlideRecord('x_snc_app_inv_app_details');
+        if (appDetailsGr.get('sys_id', dependencyAppName)) {
+			
+			
+			var ans=appDetailsGr.getValue('version');
+            return ans;
+			
+        }
+        return '';
+	}
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 03:54:32</sys_created_on>
+        <sys_id>08213194eba802105387f734bad0cd22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FetchDependencyAppVersion</sys_name>
+        <sys_package display_value="Application Management System" source="x_snc_app_inv">e6c5a74deb94c6105387f734bad0cd21</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</sys_scope>
+        <sys_update_name>sys_script_include_08213194eba802105387f734bad0cd22</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 03:54:32</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</application>
+        <file_path/>
+        <instance_id>f5a501791b7b39d87d9d2f8dee4bcb3c</instance_id>
+        <instance_name>pranay</instance_name>
+        <name>sys_script_include_08213194eba802105387f734bad0cd22</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_snc_app_inv.FetchDependencyAppVersion&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;FetchDependencyAppVersion&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var FetchDependencyAppVersion = Class.create();
+FetchDependencyAppVersion.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getAppVersion: function() {
+		
+
+        var dependencyAppName = this.getParameter('dependency_app');
+			
+        var appDetailsGr = new GlideRecord('x_snc_app_inv_app_details');
+        if (appDetailsGr.get('sys_id', dependencyAppName)) {
+			
+			
+			var ans=appDetailsGr.getValue('version');
+            return ans;
+			
+        }
+        return '';
+	}
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-20 03:54:32&lt;/sys_created_on&gt;&lt;sys_id&gt;08213194eba802105387f734bad0cd22&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;FetchDependencyAppVersion&lt;/sys_name&gt;&lt;sys_package display_value="Application Management System" source="x_snc_app_inv"&gt;e6c5a74deb94c6105387f734bad0cd21&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Application Management System"&gt;e6c5a74deb94c6105387f734bad0cd21&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_08213194eba802105387f734bad0cd22&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-20 03:54:32&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-661029643</payload_hash>
+        <record_name>FetchDependencyAppVersion</record_name>
+        <reverted_from/>
+        <source>76c5a74deb94c6105387f734bad0cd25</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 03:54:34</sys_created_on>
+        <sys_id>d0c17d94eba802105387f734bad0cd2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dc4a6acb40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 03:54:34</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>18c17d94c4a802102b2393521f108e2d</update_guid>
+        <update_guid_history>18c17d94c4a802102b2393521f108e2d:-661029643</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-20 04:27:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>1d1f7819552f4bbb8ea2e1d14a31db89</sys_id>
+        <sys_metadata>08213194eba802105387f734bad0cd22</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FetchDependencyAppVersion</sys_name>
+        <sys_package display_value="Application Management System" source="x_snc_app_inv">e6c5a74deb94c6105387f734bad0cd21</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</sys_scope>
+        <sys_scope_delete display_value="">168b7b51bb014e4085c0d28bce269000</sys_scope_delete>
+        <sys_update_name>sys_script_include_08213194eba802105387f734bad0cd22</sys_update_name>
+        <sys_update_version display_value="sys_script_include_08213194eba802105387f734bad0cd22">d0c17d94eba802105387f734bad0cd2e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-20 04:27:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

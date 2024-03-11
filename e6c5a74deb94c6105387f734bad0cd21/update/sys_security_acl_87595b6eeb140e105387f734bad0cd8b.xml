@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_snc_app_inv_incident_details</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_snc_app_inv_incident_details</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-15 00:57:51</sys_created_on>
+        <sys_id>87595b6eeb140e105387f734bad0cd8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_app_inv_incident_details</sys_name>
+        <sys_package display_value="Application Management System" source="x_snc_app_inv">e6c5a74deb94c6105387f734bad0cd21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</sys_scope>
+        <sys_update_name>sys_security_acl_87595b6eeb140e105387f734bad0cd8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-15 00:57:51</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="application_type" table="x_snc_app_inv_app_details" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>application_type</element>
+            <name>x_snc_app_inv_app_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 02:44:08</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>application_type</sys_name>
+            <sys_package display_value="Application Management System" source="x_snc_app_inv">e6c5a74deb94c6105387f734bad0cd21</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</sys_scope>
+            <sys_update_name>sys_choice_x_snc_app_inv_app_details_application_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 02:44:08</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Android</label>
+            <language>en</language>
+            <name>x_snc_app_inv_app_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 02:55:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 03:09:16</sys_updated_on>
+            <value>Android</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Calendar Service</label>
+            <language>en</language>
+            <name>x_snc_app_inv_app_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 08:55:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 08:55:37</sys_updated_on>
+            <value>Calendar Service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cloud Storage</label>
+            <language>en</language>
+            <name>x_snc_app_inv_app_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 08:55:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 08:55:37</sys_updated_on>
+            <value>Cloud Storage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cloud-based Software</label>
+            <language>en</language>
+            <name>x_snc_app_inv_app_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 04:45:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 04:45:57</sys_updated_on>
+            <value>Cloud-based Software</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Customer Relationship Management (CRM)</label>
+            <language>en</language>
+            <name>x_snc_app_inv_app_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 06:31:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 06:31:00</sys_updated_on>
+            <value>Customer Relationship Management (CRM)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Desktop Application</label>
+            <language>en</language>
+            <name>x_snc_app_inv_app_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 04:55:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 04:55:02</sys_updated_on>
+            <value>Desktop Application</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Document Editor</label>
+            <language>en</language>
+            <name>x_snc_app_inv_app_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 08:55:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 08:55:37</sys_updated_on>
+            <value>Document Editor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Email Service</label>
+            <language>en</language>
+            <name>x_snc_app_inv_app_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 08:55:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 08:55:37</sys_updated_on>
+            <value>Email Service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Enterprise Resource Planning (ERP)</label>
+            <language>en</language>
+            <name>x_snc_app_inv_app_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 06:31:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 06:31:00</sys_updated_on>
+            <value>Enterprise Resource Planning (ERP)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Issue Tracking</label>
+            <language>en</language>
+            <name>x_snc_app_inv_app_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-11 04:13:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-11 04:13:42</sys_updated_on>
+            <value>Issue Tracking</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Spreadsheet Editor</label>
+            <language>en</language>
+            <name>x_snc_app_inv_app_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 08:55:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 08:55:37</sys_updated_on>
+            <value>Spreadsheet Editor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Team Collaboration</label>
+            <language>en</language>
+            <name>x_snc_app_inv_app_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 04:55:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 04:55:01</sys_updated_on>
+            <value>Team Collaboration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Video Conferencing</label>
+            <language>en</language>
+            <name>x_snc_app_inv_app_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-27 06:31:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-27 06:31:00</sys_updated_on>
+            <value>Video Conferencing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>iOS</label>
+            <language>en</language>
+            <name>x_snc_app_inv_app_details</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 02:55:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 03:09:16</sys_updated_on>
+            <value>iOS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Android &amp; iOS</label>
+            <language>en</language>
+            <name>x_snc_app_inv_app_details</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 02:55:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 03:09:16</sys_updated_on>
+            <value>Android &amp; iOS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Web based</label>
+            <language>en</language>
+            <name>x_snc_app_inv_app_details</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 02:55:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 03:09:17</sys_updated_on>
+            <value>Web based</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

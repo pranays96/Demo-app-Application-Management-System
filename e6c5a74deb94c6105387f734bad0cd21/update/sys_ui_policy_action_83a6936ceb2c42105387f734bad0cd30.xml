@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>other</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:54:14</sys_created_on>
+        <sys_id>83a6936ceb2c42105387f734bad0cd30</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>other</sys_name>
+        <sys_package display_value="Application Management System" source="x_snc_app_inv">e6c5a74deb94c6105387f734bad0cd21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</sys_scope>
+        <sys_update_name>sys_ui_policy_action_83a6936ceb2c42105387f734bad0cd30</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-01 05:10:35</sys_updated_on>
+        <table>x_snc_app_inv_dependency_details</table>
+        <ui_policy display_value="Show or Hide Other field">1e755435ebd04a105387f734bad0cd53</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

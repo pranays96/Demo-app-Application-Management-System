@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>license_model</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 03:08:14</sys_created_on>
+        <sys_id>2b5a9c39ebd04a105387f734bad0cd6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>license_model</sys_name>
+        <sys_package display_value="Application Management System" source="x_snc_app_inv">e6c5a74deb94c6105387f734bad0cd21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</sys_scope>
+        <sys_update_name>sys_ui_policy_action_2b5a9c39ebd04a105387f734bad0cd6e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 03:08:14</sys_updated_on>
+        <table>x_snc_app_inv_app_details</table>
+        <ui_policy display_value="License type visible or not">523ad839ebd04a105387f734bad0cda4</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</application>
+        <file_path/>
+        <instance_id>f5a501791b7b39d87d9d2f8dee4bcb3c</instance_id>
+        <instance_name>pranay</instance_name>
+        <name>sys_ui_policy_action_2b5a9c39ebd04a105387f734bad0cd6e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>license_model</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-12 03:08:14</sys_created_on><sys_id>2b5a9c39ebd04a105387f734bad0cd6e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>license_model</sys_name><sys_package display_value="Application Management System" source="x_snc_app_inv">e6c5a74deb94c6105387f734bad0cd21</sys_package><sys_policy/><sys_scope display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</sys_scope><sys_update_name>sys_ui_policy_action_2b5a9c39ebd04a105387f734bad0cd6e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-12 03:08:14</sys_updated_on><table>x_snc_app_inv_app_details</table><ui_policy display_value="License type visible or not">523ad839ebd04a105387f734bad0cda4</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-265796408</payload_hash>
+        <record_name>license_model</record_name>
+        <reverted_from/>
+        <source>76c5a74deb94c6105387f734bad0cd25</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 03:08:14</sys_created_on>
+        <sys_id>3b6a9c39ebd04a105387f734bad0cdb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d9b49623d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 03:08:14</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>7f6a9c3904d04a105aec94536a3973b1</update_guid>
+        <update_guid_history>7f6a9c3904d04a105aec94536a3973b1:-265796408</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-21 05:51:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>183a943dc5b34ad08309535486c05f04</sys_id>
+        <sys_metadata>2b5a9c39ebd04a105387f734bad0cd6e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>license_model</sys_name>
+        <sys_package display_value="Application Management System" source="x_snc_app_inv">e6c5a74deb94c6105387f734bad0cd21</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</sys_scope>
+        <sys_scope_delete display_value="">168b7b51bb014e4085c0d28bce269000</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_2b5a9c39ebd04a105387f734bad0cd6e</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_2b5a9c39ebd04a105387f734bad0cd6e">3b6a9c39ebd04a105387f734bad0cdb2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-21 05:51:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

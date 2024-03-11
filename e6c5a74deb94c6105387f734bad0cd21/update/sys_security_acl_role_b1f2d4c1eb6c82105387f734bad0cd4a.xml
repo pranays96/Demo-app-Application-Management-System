@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 05:00:03</sys_created_on>
+        <sys_id>b1f2d4c1eb6c82105387f734bad0cd4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_app_inv_dependency_details.x_snc_app_inv.u_app_admin</sys_name>
+        <sys_package display_value="Application Management System" source="x_snc_app_inv">e6c5a74deb94c6105387f734bad0cd21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</sys_scope>
+        <sys_security_acl display_value="x_snc_app_inv_dependency_details">a48ae741ebd4c6105387f734bad0cd3f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_b1f2d4c1eb6c82105387f734bad0cd4a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 05:00:03</sys_updated_on>
+        <sys_user_role display_value="x_snc_app_inv.u_app_admin" name="x_snc_app_inv.u_app_admin">6b766b4deb94c6105387f734bad0cd0c</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

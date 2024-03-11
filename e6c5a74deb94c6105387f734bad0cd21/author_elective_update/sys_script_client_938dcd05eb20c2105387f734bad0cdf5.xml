@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>licensable</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>clear field value upon checkbox uncheck</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	if(newValue == true){
+		// g_form.addOptions('license_model');
+		g_form.clearOptions('license_model');
+	}else{
+		// g_form.clearOptions('license_model');
+	}
+   
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 09:31:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>938dcd05eb20c2105387f734bad0cdf5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>clear field value upon checkbox uncheck</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Application Management System" source="x_snc_app_inv">e6c5a74deb94c6105387f734bad0cd21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</sys_scope>
+        <sys_update_name>sys_script_client_938dcd05eb20c2105387f734bad0cdf5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 09:45:42</sys_updated_on>
+        <table>x_snc_app_inv_app_details</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</application>
+        <file_path/>
+        <instance_id>f5a501791b7b39d87d9d2f8dee4bcb3c</instance_id>
+        <instance_name>pranay</instance_name>
+        <name>sys_script_client_938dcd05eb20c2105387f734bad0cdf5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;licensable&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;clear field value upon checkbox uncheck&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	if(newValue == true){
+		// g_form.addOptions('license_model');
+		g_form.clearOptions('license_model');
+	}else{
+		// g_form.clearOptions('license_model');
+	}
+   
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-22 09:31:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;938dcd05eb20c2105387f734bad0cdf5&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;clear field value upon checkbox uncheck&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Application Management System" source="x_snc_app_inv"&gt;e6c5a74deb94c6105387f734bad0cd21&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Application Management System"&gt;e6c5a74deb94c6105387f734bad0cd21&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_938dcd05eb20c2105387f734bad0cdf5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-22 09:45:42&lt;/sys_updated_on&gt;&lt;table&gt;x_snc_app_inv_app_details&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-734403997</payload_hash>
+        <record_name>clear field value upon checkbox uncheck</record_name>
+        <reverted_from/>
+        <source>76c5a74deb94c6105387f734bad0cd25</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-22 09:45:42</sys_created_on>
+        <sys_id>7f4591c9eb20c2105387f734bad0cd8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18dd034e1450000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-22 09:45:42</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>f74519095b20c210bad7ce8630486323</update_guid>
+        <update_guid_history>f74519095b20c210bad7ce8630486323:-734403997,543219095920c2103dba3b15e20b4917:459400369,8d1295096320c210a92e5c00b9115172:414629860,490299853820c210615ba6565677a8af:1656677686</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-28 07:06:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>1b8fc3880f1e469a96e98faa683b2224</sys_id>
+        <sys_metadata>938dcd05eb20c2105387f734bad0cdf5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>clear field value upon checkbox uncheck</sys_name>
+        <sys_package display_value="Application Management System" source="x_snc_app_inv">e6c5a74deb94c6105387f734bad0cd21</sys_package>
+        <sys_parent display_value="App details">fea6a38deb94c6105387f734bad0cd2a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</sys_scope>
+        <sys_scope_delete display_value="">168b7b51bb014e4085c0d28bce269000</sys_scope_delete>
+        <sys_update_name>sys_script_client_938dcd05eb20c2105387f734bad0cdf5</sys_update_name>
+        <sys_update_version display_value="sys_script_client_938dcd05eb20c2105387f734bad0cdf5">7f4591c9eb20c2105387f734bad0cd8d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-28 07:06:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_applicationtype" label="applicationType" language="en" table="x_snc_app_inv_custom_table_for_xml_upload">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_applicationtype</element>
+            <help/>
+            <hint/>
+            <label>applicationType</label>
+            <language>en</language>
+            <name>x_snc_app_inv_custom_table_for_xml_upload</name>
+            <plural>applicationTypes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-21 04:28:06</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>applicationType</sys_name>
+            <sys_package display_value="Application Management System" source="x_snc_app_inv">e6c5a74deb94c6105387f734bad0cd21</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_app_inv_custom_table_for_xml_upload_u_applicationtype_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-21 04:28:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6d989f2eeb140e105387f734bad0cd8a" label="Incident details" max_length="40" name="x_snc_app_inv_incident_details" type="collection">
+        <element label="App name" max_length="32" name="app_name" read_only="true" reference="x_snc_app_inv_app_details" type="reference"/>
+        <element label="Incident No." max_length="32" name="incident_no" read_only="true" reference="incident" type="reference"/>
+        <element display="true" label="State" max_length="32" name="state" reference="incident" type="reference"/>
+        <index name="index">
+            <element name="app_name"/>
+        </index>
+        <index name="index2">
+            <element name="incident_no"/>
+        </index>
+        <index name="index3">
+            <element name="state"/>
+        </index>
+    </element>
+</database>

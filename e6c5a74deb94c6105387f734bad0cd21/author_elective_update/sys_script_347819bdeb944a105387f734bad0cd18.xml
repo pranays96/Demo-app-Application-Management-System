@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_snc_app_inv_app_user_mapping</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Populate L1 and L2 designation users</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Query User Details table to fetch users based on roles
+    var l1Users = [];
+    var l2Users = [];
+
+    // Define roles for L1 and L2 designation
+    var l1Role = 'L1 Role Name';
+    var l2Role = 'L2 Role Name';
+
+    // Query User Details table for users with L1 role
+    var l1UserGr = new GlideRecord('x_snc_app_inv_user_details');
+    l1UserGr.addEncodedQuery('designation=L1');
+    l1UserGr.query();
+    while (l1UserGr.next()) {
+        // Add user records to array
+        l1Users.push({
+            value: l1UserGr.getValue('sys_id'),
+            displayValue: l1UserGr.getValue('user_name')
+        });
+    }
+
+    // Query User Details table for users with L2 role
+    var l2UserGr = new GlideRecord('x_snc_app_inv_user_details');
+    l2UserGr.addEncodedQuery('designation=L2');
+    l2UserGr.query();
+    while (l2UserGr.next()) {
+        // Add user records to array
+        l2Users.push({
+            value: l2UserGr.getValue('sys_id'),
+            displayValue: l2UserGr.getValue('user_name')
+        });
+    }
+
+    // Set dropdown options for L1 Designation User field
+    //current.variables.l1_username.setChoices(l1Users);
+	g_form.getControl('l1_username').setChoices(l2Users);
+
+    // Set dropdown options for L2 Designation User field
+    //current.variables.l2_username.setChoices(l2Users);
+	g_form.getControl('l2_username').setChoices(l2Users);
+
+})(current, previous);
+// Business Rule to populate dropdown fields for L1 and L2 Designation Users in App User Mapping table]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 07:53:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>347819bdeb944a105387f734bad0cd18</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Populate L1 and L2 designation users</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Application Management System" source="x_snc_app_inv">e6c5a74deb94c6105387f734bad0cd21</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</sys_scope>
+        <sys_update_name>sys_script_347819bdeb944a105387f734bad0cd18</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 09:41:00</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=347819bdeb944a105387f734bad0cd18"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</application>
+        <file_path/>
+        <instance_id>f5a501791b7b39d87d9d2f8dee4bcb3c</instance_id>
+        <instance_name>pranay</instance_name>
+        <name>sys_script_347819bdeb944a105387f734bad0cd18</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_snc_app_inv_app_user_mapping&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Populate L1 and L2 designation users&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Query User Details table to fetch users based on roles
+    var l1Users = [];
+    var l2Users = [];
+
+    // Define roles for L1 and L2 designation
+    var l1Role = 'L1 Role Name';
+    var l2Role = 'L2 Role Name';
+
+    // Query User Details table for users with L1 role
+    var l1UserGr = new GlideRecord('x_snc_app_inv_user_details');
+    l1UserGr.addEncodedQuery('designation=L1');
+    l1UserGr.query();
+    while (l1UserGr.next()) {
+        // Add user records to array
+        l1Users.push({
+            value: l1UserGr.getValue('sys_id'),
+            displayValue: l1UserGr.getValue('user_name')
+        });
+    }
+
+    // Query User Details table for users with L2 role
+    var l2UserGr = new GlideRecord('x_snc_app_inv_user_details');
+    l2UserGr.addEncodedQuery('designation=L2');
+    l2UserGr.query();
+    while (l2UserGr.next()) {
+        // Add user records to array
+        l2Users.push({
+            value: l2UserGr.getValue('sys_id'),
+            displayValue: l2UserGr.getValue('user_name')
+        });
+    }
+
+    // Set dropdown options for L1 Designation User field
+    //current.variables.l1_username.setChoices(l1Users);
+	g_form.getControl('l1_username').setChoices(l2Users);
+
+    // Set dropdown options for L2 Designation User field
+    //current.variables.l2_username.setChoices(l2Users);
+	g_form.getControl('l2_username').setChoices(l2Users);
+
+})(current, previous);
+// Business Rule to populate dropdown fields for L1 and L2 Designation Users in App User Mapping table]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-12 07:53:33&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;347819bdeb944a105387f734bad0cd18&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Populate L1 and L2 designation users&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Application Management System" source="x_snc_app_inv"&gt;e6c5a74deb94c6105387f734bad0cd21&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Application Management System"&gt;e6c5a74deb94c6105387f734bad0cd21&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_347819bdeb944a105387f734bad0cd18&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-12 09:41:00&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=347819bdeb944a105387f734bad0cd18"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1139597593</payload_hash>
+        <record_name>Populate L1 and L2 designation users</record_name>
+        <reverted_from/>
+        <source>76c5a74deb94c6105387f734bad0cd25</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 09:41:00</sys_created_on>
+        <sys_id>19547935eb184a105387f734bad0cd8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d9cb0f9630000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 09:41:00</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>dd54793592184a10f77631e29affe98c</update_guid>
+        <update_guid_history>dd54793592184a10f77631e29affe98c:-1139597593,76f0f57158184a109473359415be34ad:85399522,97bb953193d44a10250e0d31a00dd47c:1883387676</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 09:55:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>01fb1975151141a8800f142ff93e6159</sys_id>
+        <sys_metadata>347819bdeb944a105387f734bad0cd18</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate L1 and L2 designation users</sys_name>
+        <sys_package display_value="Application Management System" source="x_snc_app_inv">e6c5a74deb94c6105387f734bad0cd21</sys_package>
+        <sys_parent display_value="">07292701ebd4c6105387f734bad0cd8d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Application Management System">e6c5a74deb94c6105387f734bad0cd21</sys_scope>
+        <sys_scope_delete display_value="">168b7b51bb014e4085c0d28bce269000</sys_scope_delete>
+        <sys_update_name>sys_script_347819bdeb944a105387f734bad0cd18</sys_update_name>
+        <sys_update_version display_value="sys_script_347819bdeb944a105387f734bad0cd18">19547935eb184a105387f734bad0cd8d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 09:55:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
